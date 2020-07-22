@@ -41,7 +41,7 @@ class ApiRestApplicationTests {
 				.isOk()
 				.expectHeader().contentType(MediaType.APPLICATION_JSON)
 				.expectBodyList(Producto.class)
-				.hasSize(9);
+				.hasSize(10);
 	}
 
 	/*
