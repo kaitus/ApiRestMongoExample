@@ -67,7 +67,7 @@ class ApiRestApplicationTests {
 	}
 	 */
 
-
+/*
     @Test
     void verDetalleTest() {
         Producto producto = services.findByNombre("TV Samsung").block();
@@ -84,6 +84,8 @@ class ApiRestApplicationTests {
                 .jsonPath("$.nombre").isEqualTo("TV Samsung");
     }
 
+ */
+/*
     @Test
     void verDetalle2Test() {
         Producto producto = services.findByNombre("TV Samsung").block();
@@ -103,6 +105,8 @@ class ApiRestApplicationTests {
                     Assertions.assertThat(p.getId()).isNotEmpty();
                 });
     }
+    
+ */
 
     @Test
     void crearTest() {
